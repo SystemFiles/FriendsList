@@ -125,6 +125,13 @@ import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ *
+ * This plugin is designed to provide servers with an RPG style friend list.
+ *
+ * @author Systemx86(Benjamin Sykes)
+ * @version 2.1.6
+ */
 public class FriendsList extends JavaPlugin implements Listener {
 
     private final String MSG_PREFIX = ChatColor.AQUA + "[" + ChatColor.GREEN
@@ -139,12 +146,6 @@ public class FriendsList extends JavaPlugin implements Listener {
     @SuppressWarnings("FieldMayBeFinal")
     private Inventory customMenu = Bukkit.createInventory(null, 9, ChatColor.BLACK + "--[" + ChatColor.DARK_GREEN + "Friends List" + ChatColor.BLACK + "]--");
 
-    /*
-    
-     TODO:
-     - Add Cooldown feature for teleport command. [Planned]
-    
-     */
     /**
      *
      * Executes code when the plugin is Enabled on the server. onEnable() is an

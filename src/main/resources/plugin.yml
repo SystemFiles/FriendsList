@@ -1,6 +1,6 @@
 name: FriendsList
 main: net.cubebeaters.FriendsList
-version: 2.1.5
+version: 2.1.6
 commands:
     friend:
         description: /Friend Help will list all the sub commands of this command.
