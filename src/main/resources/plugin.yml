@@ -1,0 +1,11 @@
+name: FriendsList
+main: net.cubebeaters.FriendsList
+version: 2.1.5
+commands:
+    friend:
+        description: /Friend Help will list all the sub commands of this command.
+        usage: /Friend <Add/Remove/tp/etc>
+    friends:
+        description: Opens the FriendsList GUI menu.
+        permissions: friendslist.gui
+        usage: /friends

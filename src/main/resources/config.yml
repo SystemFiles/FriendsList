@@ -1,0 +1,33 @@
+                  # Configuration File for FriendsList #
+
+
+# Plugin Information Settings Below
+# Cooldown-Timer is the cooldown time for teleportation between friends
+# If Enable GUI is set to false, players entering /friends will be presented with an error message
+# The description is not to be edited and is only available in the config.yml to make editing the plugin info easier for me :)
+# Note: The GUI feature is still in Beta testing. If it bugs out you might want to simply delete the Config.yml file and restart the plugin or set the Enable-GUI option to false.
+Plugin-Info:
+    Description: This plugin allows friends to Add, Connect, and communicate privatly. This plugin also includes many usefull features such as Friend Teleportation and Private Messaging. This plugin also comes with a nifty (optional) GUI.
+    Allow-Gifting: true
+    Enable-GUI: true
+    Disable-Default-Login-Message: true
+    Disable-Default-Leave-Message: true
+
+#Custom Join/Leave and other messages will be configured here.
+#Place Holders:
+# - $player returns the player who is joinin/leaving's name.
+# - $friend returns the friend who is being added or deleted from the players friends list.
+# Color code support. For example &e would be translated to yellow.
+Messages:
+    Join: &e $player has joined the server.
+    Leave: &e $player has left the server..
+    Added: &a $friend has been added as a friend!
+    Removed: &c $friend has been removed from your friends list.
+
+# All your friends will be listed below
+# ALL USERS WILL HAVE A HEADING FOLLOWED BY A LIST OF THEIR CURRENT 
+# FRIENDS.
+ExampleUsername:
+    - Friend1
+Friend1:
+    - ExampleUsername
