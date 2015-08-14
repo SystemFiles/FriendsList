@@ -3,16 +3,16 @@ This is a Java plugin developed using the Spigot API and is used to add and inte
 
 # Available Commands
 
-/friend help - Lists all the available commands in the plugin (friendslist.general.help)
-/friend add <Player> - Sends a friend request to <Player> (friendslist.general.add)
-/friend remove <Player> - Removes <Player> from your friends list (friendslist.general.del)
-/friend list - Lists all the senders current friends (friendslist.general.list)
-/friend tp <Player> - Teleports sender to <Player>'s location given that <Player> is a friend (friendslist.general.tp)
-/friend msg <Player> <Message> - Sends <Message> to <Player> given that <Player> is a friend (friendslist.general.msg)
-/friend gift <Player> [OptionalMessage] - Gifts the itemstack currently help in senders hand to <Player> with an optional message (friendslist.general.gift)
-/friend accept <Player> - Accepts <Player>'s Friend request(if exists) (friendslist.general.accept)
-/friend deny <Player> - Denies <Player>'s Friend request(if exists) (friendslist.general.deny)
-/friends - Opens the FriendsList GUI menu if Enabled (friendslist.gui)
+  + /friend help - Lists all the available commands in the plugin (friendslist.general.help)
+  + /friend add <Player> - Sends a friend request to <Player> (friendslist.general.add)
+  + /friend remove <Player> - Removes <Player> from your friends list (friendslist.general.del)
+  + /friend list - Lists all the senders current friends (friendslist.general.list)
+  + /friend tp <Player> - Teleports sender to <Player>'s location given that <Player> is a friend                                              (friendslist.general.tp)
+  + /friend msg <Player> <Message> - Sends <Message> to <Player> given that <Player> is a friend                                                          (friendslist.general.msg)
+  + /friend gift <Player> [OptionalMessage] - Gifts the itemstack currently help in senders hand to <Player> with an                                               optional message (friendslist.general.gift)
+  + /friend accept <Player> - Accepts <Player>'s Friend request(if exists) (friendslist.general.accept)
+  + /friend deny <Player> - Denies <Player>'s Friend request(if exists) (friendslist.general.deny)
+  + /friends - Opens the FriendsList GUI menu if Enabled (friendslist.gui)
 
 # Contact me
 
